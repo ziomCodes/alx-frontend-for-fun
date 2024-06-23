@@ -1,0 +1,54 @@
+:root {
+  --basic-width: 20%;
+  --basic-height: 15%;
+  --font-size: 10%;
+}
+
+div.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 45%;
+  width: 5%;
+  font-size: 1em;
+  color: white;
+}
+
+.box1 {
+  flex-basis: 6%;
+  height: 45%;
+  background-color: greenyellow;
+}
+.box2 {
+  flex-basis: 7%;
+  height: 60%;
+  background-color: yellow;
+  font-size: 1.5em;
+}
+
+.box3 {
+  flex-basis: 9%;
+  height: 100px;
+  background-color: blueviolet;
+  font-size: 2.5em;
+}
+
+.box4 {
+  height: 60%;
+  background-color: brown;
+  font-size: 1.5em;
+  flex-basis: 7%;
+}
+.box5 {
+  height: 45%;
+  background-color: aqua;
+  flex-basis: 6%;
+}
